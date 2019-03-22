@@ -12,7 +12,6 @@ import lab.src.view.UI;
 
 
 public class MainApplication {
-
     public static void main(String[] args) {
         StudentValidator studentValidator = new StudentValidator();
         TemaValidator temaValidator = new TemaValidator();
