@@ -14,7 +14,7 @@ public class NotaXMLRepo extends AbstractXMLRepository<String, Nota> {
      * @param filename - numele fisierului
      */
     public NotaXMLRepo(String filename) {
-        super( filename);
+        super(filename);
     }
 
     @Override
