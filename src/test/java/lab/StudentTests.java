@@ -123,7 +123,6 @@ public class StudentTests
     @After
     public void teardown()
     {
-//        service.deleteStudent(student.getID());
         try (BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(filenameStudent)))
         {
             bufferedWriter.write("<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><inbox></inbox>");
